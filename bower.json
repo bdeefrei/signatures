@@ -1,0 +1,22 @@
+{
+  "name": "signatures",
+  "description": "Générateur de signatures pour le BDE Groupe Efrei",
+  "main": "",
+  "authors": [
+    "Alexandre Martin <alexandre@m4rtin.xyz>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/bde-groupe-efrei/signatures",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "static/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootswatch": "^3.3.7",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
