@@ -20,7 +20,7 @@
         <div class="form-group">
           <label for="inputEmail" class="col-lg-2 control-label">Email</label>
           <div class="col-lg-10">
-            <input class="form-control" id="inputEmail" placeholder="john.doe@team-scylla.fr" type="text" v-model="inputEmail" v-on:focus="showMail()">
+            <input class="form-control" id="inputEmail" placeholder="john.doe@bde-efrei.fr" type="text" v-model="inputEmail" v-on:focus="showMail()">
           </div>
         </div>
 
@@ -51,7 +51,7 @@
       <div class="panel-heading">Voici votre signature</div>
       <div class="panel-body" id="signature">
         <div style="float: left; margin: 2px 5px 5px 0px; padding-right: 5px; display: block;">
-          <img src="https://team-scylla.fr/cdn/logo.png" width="90px" height="90px">
+          <img src="https://signature.bde-efrei.fr/cdn/logo.png" width="90px" height="90px">
         </div>
         <div style="margin-top:0px; margin-left: 110px">
           <p style="font-family: Helvetica, sans-serif; font-size: 12px; line-height: 14px; color: #333; margin-top:0; margin-left:0; padding-left:0;">
@@ -59,16 +59,16 @@
               <span v-if="displayName">{{ inputFirstName }} {{ inputLastName }}</span>
               <span v-else>John Doe</span>
             </strong>
-            <span v-if="displayRole">/ {{ inputRole }} BDE Scylla</span>
-            <span v-else>/ Président BDE Scylla</span><br>
+            <span v-if="displayRole">/ {{ inputRole }} BDE Overlord</span>
+            <span v-else>/ Président BDE Overlord</span><br>
             <span v-if="displayMail"> <a v-bind:href="'mailto:' +  inputEmail" style="color:#3684c8;">{{ inputEmail }}</a></span>
-            <span v-else><a href="mailto:john.doe@team-scylla.fr" style="color:#3684c8;">john.doe@team-scylla.fr</a></span><br>
+            <span v-else><a href="mailto:john.doe@bde-efrei.fr" style="color:#3684c8;">john.doe@bde-efrei.fr</a></span><br>
             <span v-if="displayPhone">{{ inputPhone }}</span>
             <span v-else>06 00 00 00 00</span>
           </p>
           <p style="font-family: Helvetica, sans-serif; font-size: 12px; line-height: 14px; color: rgb(51, 51, 51); margin-top: 0px;">
             <span style="font-size: 10px; line-height: 14px; margin: 5px 0; display:block; opacity:0.8;"><a v-bind:href="inputLinkedIn" target="_blank" style="color: black">LinkedIn</a></span>
-            <span><a href="http://team-scylla.fr" style="color:#3684c8;" rel="nofollow" target="_blank">https://team-scylla.fr</a></span> <br>
+            <span><a href="http://bde-efrei.fr" style="color:#3684c8;" rel="nofollow" target="_blank">https://bde-efrei.fr</a></span> <br>
           </p>
         </div>
       </div>
